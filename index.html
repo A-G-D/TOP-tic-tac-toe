@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="canvas vflex">
+        <div class="header row hflex">
+            <label id="game-title">
+                Let's Play
+                <p>TIC-TAC-TOE</p>
+            </label>
+        </div>
+        <div class="players row vflex">
+            <label id="current-round">ROUND <span></span></label>
+            <div class="info hflex">
+                <div class="player vflex">
+                    <label class="col-title">PLAYER</label>
+                    <label class="name">Name: <span></span></label>
+                    <label class="score">Score: <span></span></label>
+                </div>
+                <div class="computer vflex">
+                    <label class="col-title">OPPONENT</label>
+                    <label class="name">Name: <span></span></label>
+                    <label class="score">Score: <span></span></label>
+                </div>
+            </div>
+        </div>
+        <div id="rounds-history" class="row vflex">
+            <label>Rounds History:</label>
+            <ul></ul>
+        </div>
+        <div id="game-message" class="row hflex">
+            <p class=""></p>
+        </div>
+        <div class="gameboard">
+            <!-- Game board goes here -->
+        </div>
+    </div>
+</body>
+</html>
