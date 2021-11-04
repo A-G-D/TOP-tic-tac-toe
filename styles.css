@@ -82,15 +82,21 @@ p {
 }
 
 .main {
-
 }
 
-.choices {
-    background: radial-gradient(white, lightgreen);
-    border: 1px solid green; 
-    border-radius: 32px;
-    padding: 8px 12px;
-    gap: 64px;
+.gameboard {
+    border: 2px solid black;
+    display: grid;
+    width: 360px;
+    height: 360px;
+}
+
+.cell {
+    border: 1px solid black;
+    background-color: #D0D0D080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*  */
